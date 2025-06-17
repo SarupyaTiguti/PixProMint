@@ -7,7 +7,7 @@ const Footer = () => {
       <img src={assets.logo} alt="" width={150} />
 
       <p className="flex-1 border-l border-gray-400 pl-4 text-sm text-gray-500 max-sm:hidden">
-        Copyright @rajasekhar.dev | All right reserved.
+        Copyright @sarupyatiguti.dev | All right reserved.
       </p>
 
       <div className="flex gap-2.5">

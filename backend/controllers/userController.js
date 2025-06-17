@@ -120,7 +120,7 @@ export const paymentRazorpay = async (req, res) => {
 
     date = Date.now();
 
-    console.log(userID);
+    // console.log(userID);
     const transactionData = {
       userId: userID,
       plan,
@@ -143,7 +143,7 @@ export const paymentRazorpay = async (req, res) => {
 
     await razorpayInstance.orders.create(options, (error, order) => {
       if (error) {
-        console.log(error);
+        console.log("error", error);
         return res.json({ success: false, message: error });
       }
 
