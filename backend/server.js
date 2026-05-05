@@ -15,7 +15,8 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173", // local
-    "https://your-frontend-url.vercel.app" // 🔁 replace after deploy
+    "https://pix-pro-mint.vercel.app", // 🔁 replace after deploy
+    "https://pix-pro-mint-3nxivbupv-sarupya-tiguti-7883s-projects.vercel.app"
   ],
   credentials: true
 }));
